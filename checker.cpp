@@ -10,9 +10,8 @@ using namespace std;
 
 int main()
 {
-	int a[4] = {1,2,3,4};
-	//int sum =0;
-	int sum = accumulate(a,a+4,sum);
-	cout<<sum<<endl;
+	char a = '1';
+	int x = (int)a - '0';
+	cout<<x<<endl;
 
 }
